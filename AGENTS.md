@@ -5,14 +5,14 @@
 ## 开始任务前
 
 1. 阅读 README.md，了解项目状态和运行方式。
-2. 阅读 [docs/specs.md](./docs/specs.md) 和 [docs/plan.md](./docs/plan.md)，确认功能范围、验收标准和执行顺序。
+2. 阅读 [docs/specs/task-management.md](./docs/specs/task-management.md) 和 [docs/plans/task-management.md](./docs/plans/task-management.md)，确认功能范围、验收标准和执行顺序。
 3. 检查当前分支、工作区改动和已有实现，保留他人未提交的工作。
 4. 基于指定基础分支开展工作；本示例建议使用 `feat/task-management-demo`，已有任务分支时继续使用。
 
 ## 文档职责
 
-- docs/specs.md 定义功能、数据规则和验收标准。
-- docs/plan.md 定义实施步骤、依赖和完成状态。
+- docs/specs/task-management.md 定义功能、数据规则和验收标准。
+- docs/plans/task-management.md 定义实施步骤、依赖和完成状态。
 - AGENTS.md 定义仓库内的工作规则。
 - README.md 说明项目用途、当前状态、运行方式和已知限制。
 

@@ -11,18 +11,20 @@ ai-worker-task-demo/
 ├── AGENTS.md
 ├── README.md
 └── docs/
-    ├── specs.md
-    └── plan.md
+    ├── specs/
+    │   └── task-management.md
+    └── plans/
+        └── task-management.md
 ```
 
-AGENTS.md 保留在根目录作为仓库工作规则；README.md 作为项目入口；需求规格与执行计划集中放在 docs 目录。这是本示例采用的目录约定，Spec 和 Plan 的文件名并非工具强制标准。
+AGENTS.md 保留在根目录作为仓库工作规则；README.md 作为项目入口；需求规格放在 docs/specs/，执行计划放在 docs/plans/；同一任务的两份文档使用相同文件名，便于对应。这是本示例采用的目录约定，Spec 和 Plan 的文件名并非工具强制标准。
 
 ## 文档导航
 
 | 文件 | 用途 | 主要维护者 |
 |---|---|---|
-| [docs/specs.md](./docs/specs.md) | 规格说明：做什么、边界是什么、如何验收 | 项目负责人和开发人员 |
-| [docs/plan.md](./docs/plan.md) | 执行计划：实施步骤、验证方式和交付安排 | 开发人员和数字员工 |
+| [docs/specs/task-management.md](./docs/specs/task-management.md) | 规格说明：做什么、边界是什么、如何验收 | 项目负责人和开发人员 |
+| [docs/plans/task-management.md](./docs/plans/task-management.md) | 执行计划：实施步骤、验证方式和交付安排 | 开发人员和数字员工 |
 | [AGENTS.md](./AGENTS.md) | 数字员工规则：如何读取仓库、修改代码、验证和汇报 | 仓库维护者 |
 | [README.md](./README.md) | 项目入口：当前状态、运行方法和使用限制 | 项目维护者 |
 
@@ -38,7 +40,7 @@ AGENTS.md 保留在根目录作为仓库工作规则；README.md 作为项目入
 
 可使用以下任务描述作为起点：
 
-> 请先阅读仓库的 AGENTS.md、README.md、docs/specs.md 和 docs/plan.md，依据规格完成内部任务管理 Demo。按计划更新完成状态，提交代码变更及逐项验收结果。遇到影响需求范围的冲突请明确指出；未验证的内容不得标记为通过。成果交由负责人审查后合并。
+> 请先阅读仓库的 AGENTS.md、README.md、docs/specs/task-management.md 和 docs/plans/task-management.md，依据规格完成内部任务管理 Demo。按计划更新完成状态，提交代码变更及逐项验收结果。遇到影响需求范围的冲突请明确指出；未验证的内容不得标记为通过。成果交由负责人审查后合并。
 
 ## 计划实现的功能
 
@@ -48,7 +50,7 @@ AGENTS.md 保留在根目录作为仓库工作规则；README.md 作为项目入
 - 使用 localStorage 保存任务，刷新后恢复。
 - 支持中文界面、键盘操作和移动端布局。
 
-具体规则及验收标准以 [docs/specs.md](./docs/specs.md) 为准。
+具体规则及验收标准以 [docs/specs/task-management.md](./docs/specs/task-management.md) 为准。
 
 ## 技术方案
 

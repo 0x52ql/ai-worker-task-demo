@@ -1,6 +1,6 @@
 # 执行计划（Plan）：内部任务管理 Demo
 
-依据规格：[specs.md](./specs.md)，版本 1.0  
+依据规格：[规格说明](../specs/task-management.md)，版本 1.0  
 状态：待执行；以下复选框不代表已经实现
 
 ## 1. 执行目标与约束
@@ -19,8 +19,10 @@
 项目根目录/
 ├── AGENTS.md
 ├── docs/
-│   ├── specs.md
-│   └── plan.md
+│   ├── specs/
+│   │   └── task-management.md
+│   └── plans/
+│       └── task-management.md
 ├── src/
 │   ├── App.tsx
 │   ├── App.test.tsx
@@ -33,7 +35,7 @@
 └── README.md
 ```
 
-文档固定为根目录的 [AGENTS.md](../AGENTS.md)、[README.md](../README.md)，以及 docs 目录的 [specs.md](./specs.md)、[plan.md](./plan.md)。命令均在仓库根目录执行。
+文档固定为根目录的 [AGENTS.md](../../AGENTS.md)、[README.md](../../README.md)，以及 docs/specs/ 和 docs/plans/ 中对应的 [规格说明](../specs/task-management.md)、[执行计划](./task-management.md)。命令均在仓库根目录执行。
 
 ## 3. 实施步骤
 
