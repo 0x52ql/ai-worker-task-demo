@@ -1,6 +1,6 @@
 # 执行计划（Plan）：内部任务管理 Demo
 
-依据规格：[规格说明](../specs/task-management.md)，版本 1.0  
+依据规格：[规格说明](../specs/task-management.md)，版本 1.0\
 状态：待执行；以下复选框不代表已经实现
 
 ## 1. 执行目标与约束
